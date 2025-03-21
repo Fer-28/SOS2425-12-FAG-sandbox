@@ -69,6 +69,9 @@ function loadBackend(app){
     
     });
    
+    app.get("/docs", (req, res) => {
+        res.redirect("https://documenter.getpostman.com/view/15596441/TzJx9GJm");
+    })
 
 }
 
