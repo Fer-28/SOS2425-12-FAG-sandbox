@@ -10,8 +10,8 @@
     "test-local": "start-server-and-test start http://localhost:16078 test-api-local",
     "test-online": "start-server-and-test start http://localhost:16078 test-api-online",
     "test": "npm run test-local",
-    "build": "cd src/front; npm run build; cd ..; cd ..",
-    "only-frontend": "cd src/front; npm run dev -- --open; cd ..; cd .."
+    "build": "cd src/front; npm install; npm run build; cd ..; cd ..",
+    "only-front": "cd src/front; npm run dev -- --open; cd ..; cd .."
   },
   "keywords": [],
   "author": "",
